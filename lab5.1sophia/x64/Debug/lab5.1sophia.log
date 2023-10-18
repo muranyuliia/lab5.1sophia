@@ -1,0 +1,4 @@
+﻿  lab5.1sophia.cpp
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(9,15): warning C4101: 'y': unreferenced local variable
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(9,12): warning C4101: 'x': unreferenced local variable
+  lab5.1sophia.vcxproj -> D:\lab5.1sophia\lab5.1sophia\x64\Debug\lab5.1sophia.exe
