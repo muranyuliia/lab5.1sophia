@@ -1,0 +1,18 @@
+﻿  UnitTest1.cpp
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(16,17): error C2665: 'pow': no overloaded function could convert all the argument types
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cmath(487,46): message : could be 'long double pow(long double,long double) noexcept'
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(16,17): message : 'long double pow(long double,long double) noexcept': cannot convert argument 1 from 'double (__cdecl *)(const double,const double,const double)' to 'long double'
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(16,21): message : Context does not allow for disambiguation of overloaded function
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cmath(223,40): message : or       'float pow(float,float) noexcept'
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(16,17): message : 'float pow(float,float) noexcept': cannot convert argument 1 from 'double (__cdecl *)(const double,const double,const double)' to 'float'
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(16,21): message : Context does not allow for disambiguation of overloaded function
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math.h(486,35): message : or       'double pow(double,double)'
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(16,17): message : 'double pow(double,double)': cannot convert argument 1 from 'double (__cdecl *)(const double,const double,const double)' to 'double'
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(16,21): message : Context does not allow for disambiguation of overloaded function
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\cmath(674,1): message : or       'conditional<std::is_same_v<_Ty1,long double>||std::is_same_v<_Ty2,long double>,long double,conditional<std::is_same_v<_Ty1,float>&&std::is_same_v<_Ty2,float>,float,double>::type>::type pow(_Ty1,_Ty2) noexcept'
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(16,17): message : 'conditional<std::is_same_v<_Ty1,long double>||std::is_same_v<_Ty2,long double>,long double,conditional<std::is_same_v<_Ty1,float>&&std::is_same_v<_Ty2,float>,float,double>::type>::type pow(_Ty1,_Ty2) noexcept': could not deduce template argument for '__formal'
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(16,17): message : while trying to match the argument list '(overloaded-function, int)'
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(16,63): error C2660: 'h': function does not take 2 arguments
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(5,8): message : see declaration of 'h'
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(16,63): message : while trying to match the argument list '(int, double)'
+D:\lab5.1sophia\lab5.1sophia\lab5.1sophia.cpp(16,90): error C2059: syntax error: ';'
